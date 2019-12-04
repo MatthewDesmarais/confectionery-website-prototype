@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: red;
+  text-align: center;
+  position: fixed;
+  height: 100vw;
+  width: 20vw;
+}
+
+.navigation {
+  text-align: center;
+}
+
+nav h1 {
+  position: relative;
+  padding-top: 2vw;
+  font-size: 4rem;
+}
+
+ul {
+  padding-top: 3vw;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+ul li {
+  padding-top: 10vw;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+.btn {
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  padding: .4em .75em .3em;
+  color: #fff;
+  border: 3px solid #000;
+  background-color: #333;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+}
