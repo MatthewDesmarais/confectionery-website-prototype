@@ -3,212 +3,222 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: Dosis, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
-  }
+}
 
 /* Mobile */
 /* ____________________________________________________ */
 /* Hover */
-  .social li img:hover {
-   opacity: .5;
-  }
+.social li img:hover {
+  opacity: .5;
+}
 
-  nav li a:hover {
-    opacity: .5;
-    background-color: black;
-  }
+nav li a:hover {
+  opacity: .5;
+  background-color: black;
+}
 
-  .btn:hover {
-    opacity: .7;
-  }
+.btn:hover {
+  opacity: .7;
+}
+
+.absolute {
+  position: absolute;
+  left: 5000px;
+}
 
 /* Paragraph 1 */
-  .motto {
-    font-family: Dosis, sans-serif;
-    margin: 10px;
-    font-size: 1.2em;
-    color: #fff;
-    border-bottom: solid 1px;
-  }
+.motto {
+  font-family: Dosis, sans-serif;
+  margin: 10px;
+  font-size: 1.2em;
+  color: #fff;
+  border-bottom: solid 1px;
+}
 
 /* Paragraph 2 */
-  .truffles {
-   margin-top: 15px;
-   padding-left: 17px;
-   padding-right: 17px;
-   font-family: 'Dosis', sans-serif;
-   color: #fff;
-   text-align: center;
-   font-size: 1rem;
-  }
+.truffles {
+  margin-top: 15px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-family: Dosis, sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
 
 /* Nav Styling */
-  nav {
-    background-color: #eee;
-    text-align: center;
-    font-family: Raleway, sans-serif;
-    width: 100%;
-    padding-bottom: 15px;
-  }
+nav {
+  background-color: #eee;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  width: 100%;
+  padding-bottom: 15px;
+}
 
 /* Nav Logo */
-  .logo-image {
-    width: 50%;
-    max-height: 75px;
-    text-align: center;
-  }
+.logo-image {
+  width: 50%;
+  max-height: 75px;
+  text-align: center;
+}
 
 /* Nav Logo */
-  .logo {
-    width: 30%;
-    margin: 10px auto;
-  }
+.logo {
+  width: 30%;
+  margin: 10px auto;
+}
 
 /* Social Icon Image Size */
-  img {
-    width: 60%;
-    margin-top: 8px;
-  }
+.img-flex,
+img {
+  width: 100%;
+  width: 60%;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 /* Nav Text Size */
-  .social ul {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: stretch;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 1.1rem;
-    text-align: center;
-  }
-
+.social ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-align: center;
+}
 
 /* Nav Horizontal */
-  .navigation li {
-    text-align: center;
-    display: inline-block;
-    padding: 0;
+.navigation li {
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
 
-  }
+.navigation li:first-child {
+  margin-left: 50px;
+}
 
-   .navigation li:first-child {
-   margin-left: 50px;
- }
-
-   .navigation li:last-child {
-   margin-right: 50px;
- }
+.navigation li:last-child {
+  margin-right: 50px;
+}
 
 /* Social Icon Boxes */
-  .social li {
-    text-align: center;
-    width: 20%;
-    display: inline-block;
-    padding-top: 5px;
-  }
+.social li {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  padding-top: 5px;
+}
 
 /* Nav Colour */
-  a {
-    text-decoration: none;
-    color: #251842;
-    margin: 5px;
-  }
+a {
+  text-decoration: none;
+  color: #251842;
+  margin: 5px;
+}
 
 /* Title container */
-  .button-container {
-    position: relative;
-    top: 40vh;
-  }
+.button-container {
+  position: relative;
+  top: 40vh;
+}
 
 /* Background Image */
-  .display-title {
-    display: block;
-    width: 100%;
-    height: 90vh;
-    max-width: 100%;
-    max-height: 100%;
-    background-image: url("../images/truffles.jpg");
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-  }
+.display-title {
+  display: block;
+  width: 100%;
+  height: 90vh;
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url("../images/truffles.jpg");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* H1 Boxes */
-  .display-title h1 {
-    position: relative;
-    background-color: black;
-    color: white;
-    margin: auto;
-    font-size: 3rem;
-    top: -100px;
-    width: 170px;
-    height: 60px;
-    text-align: center;
-    right: 55px;
-  }
+.display-title h1 {
+  position: relative;
+  background-color: black;
+  color: white;
+  margin: auto;
+  font-size: 3rem;
+  top: -150px;
+  width: 170px;
+  height: 60px;
+  text-align: center;
+  left: -60px;
+}
 
 /* button Box */
-  .btn {
-    margin-top: 60px;
-    position: relative;
-    text-decoration: none;
-    border-radius: 8px;
-    display: inline-block;
-    padding: .6em 1.4em .6em;
-    color: #fff;
-    border: 3px solid #000;
-    background-color: #333;
-    font-family: 'Dosis', sans-serif;
-    font-weight: bolder;
-  }
+.btn {
+  margin-top: 60px;
+  position: relative;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  padding: .6em 1.4em .6em;
+  color: #fff;
+  border: 3px solid #000;
+  background-color: #333;
+  font-family: Dosis, sans-serif;
+  font-weight: bolder;
+}
 
-  footer {
-    min-height: 10vh;
-  }
+footer {
+  min-height: 10vh;
+}
 
-  footer img {
-    display: inline-block;
-  }
+footer img {
+  display: inline-block;
+}
 
-  footer ul {
-    padding-top: 1vh;
-    display: flex;
-    justify-content: center;
-  }
+footer ul {
+  padding-top: 1vh;
+  display: flex;
+  justify-content: center;
+}
 
-  .social li img {
-    max-height: 50px;
-    max-width: 50px;
-  }
+.social li img {
+  max-height: 50px;
+  max-width: 50px;
+}
 
 @media only screen and (min-width: 25em) {
   html {
-    font-size: 1.2rem;
-    line-height: 0.9;
+    font-size: 100%;
+    line-height: 1.3;
   }
 
   .display-title h1 {
     height: 55px;
     width: 180px;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
   html {
-    font-size: 1.35rem;
-    line-height: 1.1;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   .display-title h1 {
@@ -226,23 +236,25 @@ html {
     display: flex;
     justify-content: space-between;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
   html {
-    font-size: 1.45rem;
-    line-height: 1.4;
+    font-size: 120%;
+    line-height: 1.5;
   }
 
   .display-title h1 {
     height: 85px;
     width: 225px;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
   html {
-    font-size: 1.5rem;
+    font-size: 130%;
   }
 
   nav {
@@ -269,4 +281,5 @@ html {
   .navigation li:last-child {
     margin-right: 0;
   }
+
 }
