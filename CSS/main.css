@@ -21,17 +21,17 @@ html {
 /* ____________________________________________________ */
 /* Hover */
   .social li img:hover {
-   opacity: 50%;
-   border-raduis: 20px;
+   opacity: .5;
   }
 
   nav li:hover {
-    opacity: 60%;
+    opacity: .5;
   }
 
   .btn:hover {
-    opacity: 70%;
+    opacity: .7;
   }
+
 /* Paragraph 1 */
   .motto {
     font-family: Dosis, sans-serif;
