@@ -22,6 +22,7 @@ html {
 /* Mobile */
 /* ____________________________________________________ */
 /* Hover */
+
 .social li img:hover {
   opacity: .5;
 }
@@ -41,6 +42,7 @@ nav li a:hover {
 }
 
 /* Paragraph 1 */
+
 .motto {
   font-family: Dosis, sans-serif;
   margin: 10px;
@@ -50,6 +52,7 @@ nav li a:hover {
 }
 
 /* Paragraph 2 */
+
 .truffles {
   margin-top: 15px;
   padding-left: 17px;
@@ -61,6 +64,7 @@ nav li a:hover {
 }
 
 /* Nav Styling */
+
 nav {
   background-color: #eee;
   text-align: center;
@@ -70,6 +74,7 @@ nav {
 }
 
 /* Nav Logo */
+
 .logo-image {
   width: 50%;
   max-height: 75px;
@@ -77,12 +82,14 @@ nav {
 }
 
 /* Nav Logo */
+
 .logo {
   width: 30%;
   margin: 10px auto;
 }
 
 /* Social Icon Image Size */
+
 .img-flex,
 img {
   width: 100%;
@@ -94,6 +101,7 @@ img {
 }
 
 /* Nav Text Size */
+
 .social ul {
   display: flex;
   width: 100%;
@@ -106,6 +114,7 @@ img {
 }
 
 /* Nav Horizontal */
+
 .navigation li {
   text-align: center;
   display: inline-block;
@@ -121,6 +130,7 @@ img {
 }
 
 /* Social Icon Boxes */
+
 .social li {
   text-align: center;
   width: 20%;
@@ -129,6 +139,7 @@ img {
 }
 
 /* Nav Colour */
+
 a {
   text-decoration: none;
   color: #251842;
@@ -136,12 +147,14 @@ a {
 }
 
 /* Title container */
+
 .button-container {
   position: relative;
   top: 40vh;
 }
 
 /* Background Image */
+
 .display-title {
   display: block;
   width: 100%;
@@ -155,6 +168,7 @@ a {
 }
 
 /* H1 Boxes */
+
 .display-title h1 {
   position: relative;
   background-color: black;
@@ -169,13 +183,14 @@ a {
 }
 
 /* button Box */
+
 .btn {
   margin-top: 60px;
   position: relative;
   text-decoration: none;
   border-radius: 8px;
   display: inline-block;
-  padding: .6em 1.4em .6em;
+  padding: .6em 1.4em;
   color: #fff;
   border: 3px solid #000;
   background-color: #333;
@@ -203,6 +218,7 @@ footer ul {
 }
 
 @media only screen and (min-width: 25em) {
+
   html {
     font-size: 100%;
     line-height: 1.3;
@@ -216,6 +232,7 @@ footer ul {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -240,6 +257,7 @@ footer ul {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -253,6 +271,7 @@ footer ul {
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
   }
